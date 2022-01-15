@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 
+import {ReactComponent as GithubIcon} from './assets/img/github.svg'
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <h1>Página principal</h1>
+    <Navbar />
   );
 }
 
